@@ -17,3 +17,4 @@ curl --user "$TOKEN":x-oauth-basic --include --request POST --data '{"name":"Bug
 curl --user "$TOKEN":x-oauth-basic --include --request POST --data '{"name":"FeatureRequest","color":"207de5"}' "https://api.github.com/repos/shiraji/$REPO/labels"
 curl --user "$TOKEN":x-oauth-basic --include --request POST --data '{"name":"Question","color":"eb6420"}' "https://api.github.com/repos/shiraji/$REPO/labels"
 curl --user "$TOKEN":x-oauth-basic --include --request POST --data '{"name":"Refactoring","color":"5319e7"}' "https://api.github.com/repos/shiraji/$REPO/labels"
+curl --user "$TOKEN":x-oauth-basic --include --request POST --data '{"name":"Documentation","color":"006b75"}' "https://api.github.com/repos/shiraji/$REPO/labels"
